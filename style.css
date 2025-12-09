@@ -1,0 +1,187 @@
+/* FULL PAGE BACKGROUND */
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/* MAIN WRAPPER */
+.container {
+  width: 90%;
+  max-width: 900px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background: #1d3557;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 26px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #457b9d;
+  color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.explore-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: #ffdd57;
+  border: none;
+  border-radius: 10px;
+  color: #1d3557;
+  cursor: pointer;
+}
+
+/* SECTION */
+.section {
+  margin-top: 40px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #1d3557;
+  margin-bottom: 20px;
+}
+
+/* MAIN OPTION CARDS */
+.option-card {
+  background: #f1faee;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.option-card .icon {
+  font-size: 40px;
+  color: #457b9d;
+}
+
+.option-card h3 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.option-card p {
+  font-size: 18px;
+}
+
+.option-card button {
+  margin-top: 12px;
+  padding: 12px 25px;
+  background: #1d3557;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* GRID CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.small-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.small-icon {
+  font-size: 40px;
+  color: #e63946;
+}
+
+.small-card h4 {
+  font-size: 22px;
+}
+
+.small-card p {
+  font-size: 17px;
+}
+
+.small-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #e63946;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+/* EVENTS SECTION */
+.event-box {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.event-icon {
+  font-size: 40px;
+  margin-right: 15px;
+  color: #ff9f1c;
+}
+
+.event-box h3 {
+  font-size: 24px;
+}
+
+.event-box p {
+  font-size: 18px;
+}
+.more-box {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.more-btn {
+  padding: 15px 30px;
+  background: #1d3557;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  background: #457b9d;
+  transform: scale(1.05);
+}
